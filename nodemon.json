@@ -1,5 +1,6 @@
 {
-  "verbose": true,
-  "ignore": ["*.test.js", "**/fixtures/**"],
-  "exec": "vite-node src/app.ts"
+  "watch": ["src"],
+  "ext": "ts,json",
+  "ignore": ["*.test.js"],
+  "exec": "vite-node"
 }

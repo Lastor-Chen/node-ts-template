@@ -1,8 +1,12 @@
 {
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true
+  },
   "compilerOptions": {
     "composite": false,
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "nodenext",
     "esModuleInterop": true,
     "allowJs": true,
